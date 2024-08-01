@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+    @apply bg-[#1ABC9C] p-2 rounded-lg 
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: black;
+}
